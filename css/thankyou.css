@@ -1,0 +1,58 @@
+.version.thankyou /* version checker */
+{
+	color: #0000F3;
+	background-color: #654578;
+}
+
+#page
+{
+	z-index: 1;
+	width: 708px;
+	min-height: 253px;
+	background-image: none;
+	border-width: 0px;
+	border-color: #000000;
+	background-color: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 84px 246px 4663px;
+}
+
+#u610-8
+{
+	z-index: 2;
+	width: 708px;
+	min-height: 149px;
+	background-color: transparent;
+	line-height: 29px;
+	font-size: 24px;
+	text-align: center;
+	font-family: pt-sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u611
+{
+	z-index: 10;
+	width: 200px;
+	min-height: 100px;
+	border-width: 0px;
+	border-color: transparent;
+	background-color: transparent;
+	margin-left: 254px;
+	margin-top: 4px;
+	position: relative;
+}
+
+#muse_css_mq,.html
+{
+	background-color: #FFFFFF;
+}
+
+body
+{
+	position: relative;
+	min-width: 1200px;
+}
+

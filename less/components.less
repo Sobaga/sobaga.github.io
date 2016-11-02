@@ -580,18 +580,15 @@
 		}
 	}
 	.price{
-		color: @font-color;
-		font-size: 1.5em;
-		text-align: center;
-		margin-bottom: 20px;
-		font-weight: 600;
-		.border-radius(7px);
-		.price-was{
-			color: #A7A7A7;
-			font-size: 0.8em;
-			text-decoration: line-through;
-		}
-	}
+		background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 30px auto;
+	text-align: left;
+	width: 800px;
+}
 
 	.description{
 		color: #828282;
@@ -2454,4 +2451,45 @@ span.color-red{
 
 .dropdown.open a.dropdown-toggle .caret{
 	border-top: 4px solid #FFF;
+}
+
+.join-us {
+    text-align: justify;
+	.border-radius(4px);
+	padding: 20px 20px 0 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background: #FFF;
+	position: relative;
+	.box-sizing(border-box);
+	.box-shadow(~"inset 0 1px #fff,0 0 4px #c8cfe6");
+}
+
+.join-us::after {
+	background: #FFF;
+    content: "\00a0";
+    display: block;
+    height: 20px;
+    width:  20px;
+    bottom: -10px;
+    left: 45%;
+    position: relative;
+    .transform(~"rotate(45deg)");
+    .box-shadow(~"inset 0 1px #fff,1px 1px 1px #c8cfe6");
+}
+
+.join-promo {
+    blockquote{
+		margin: 0;
+		padding: 0;
+		border-left: none;
+	}
+	blockquote{
+		p{
+			font-size: 1.1em;
+			margin-bottom: 20px;
+			line-height: 1.5;
+		}
+	}
+	
 }
